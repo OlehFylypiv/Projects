@@ -1,0 +1,42 @@
+$mainColor : #3e78d6;
+$mainTextColor : #eff2f7;
+$mainFont : "Fjalla One", sans-serif;
+$contentFont : "Catamaran", sans-serif;
+
+.header {
+	background-color : $mainColor;
+	text-align : center;
+	margin-top : 30px;
+	border-radius : 5px;
+	h1 {
+		font-family : "Fjalla One", sans-serif;
+		color : $mainTextColor;
+	}
+}
+
+.content {
+	margin-top : 30px;
+	label {
+		margin-left : 30%;
+		margin-top: 5%;
+		color : $mainColor;
+		font-family : $contentFont;
+		font-size : 15px;
+	};
+	input {
+		font-family : $contentFont;
+		color : $mainColor;
+		font-size : 15px;
+	};
+}
+
+.yourCity, .searchCity {
+	margin-top : 20px;
+	font-family : $contentFont;
+	color : $mainColor;
+	text-align : center;
+	h3 {
+		font-family : $mainFont;
+		margin-bottom : 15px;
+	};
+}

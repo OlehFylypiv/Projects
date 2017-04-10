@@ -1,0 +1,41 @@
+.header {
+  background-color: #3e78d6;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.header h1 {
+  font-family: "Fjalla One", sans-serif;
+  color: #eff2f7;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.content label {
+  margin-left: 30%;
+  margin-top: 5%;
+  color: #3e78d6;
+  font-family: "Catamaran", sans-serif;
+  font-size: 15px;
+}
+
+.content input {
+  font-family: "Catamaran", sans-serif;
+  color: #3e78d6;
+  font-size: 15px;
+}
+
+.yourCity, .searchCity {
+  margin-top: 20px;
+  font-family: "Catamaran", sans-serif;
+  color: #3e78d6;
+  text-align: center;
+}
+
+.yourCity h3, .searchCity h3 {
+  font-family: "Fjalla One", sans-serif;
+  margin-bottom: 15px;
+}
