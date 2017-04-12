@@ -1,0 +1,23 @@
+.mainText {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  margin-bottom: 30px;
+  color: #2771e8;
+}
+
+i {
+  margin-left: 25%;
+}
+
+p, button, input {
+  font-family: "Crimson Text", serif;
+}
+
+a {
+  font-family: "Lobster", cursive;
+}
+
+.searchArea {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}

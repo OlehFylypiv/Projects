@@ -1,0 +1,27 @@
+$mainFont : "Lobster", cursive;
+$contentFont : "Crimson Text", serif;
+$mainColor : #2771e8;
+
+.mainText {
+	text-align : center;
+	font-family : $mainFont;
+	margin-bottom : 30px;
+	color : $mainColor;
+}
+
+i {
+	margin-left : 25%;
+}
+
+p, button, input {
+	font-family : $contentFont;
+}
+
+a {
+	font-family : $mainFont;
+}
+
+.searchArea {
+	margin-top : 30px;
+	margin-bottom : 40px;
+}
