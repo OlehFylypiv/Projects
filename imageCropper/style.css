@@ -1,0 +1,162 @@
+* {
+	padding: 0;
+	margin: 0;
+	background-color: #bca9ba;
+	color: #5b565b;
+	font-family: Arial;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.check-path {
+	width: 400px;
+	height: 150px;
+	margin: 0 auto;
+	border: 2px solid #d317ba;
+}
+
+.flex-row {
+	display: flex;
+	direction: row;
+}
+
+.local-button, .remote-button {
+	text-align: center;
+	width: 100px;
+	margin-top: 20px;
+}
+
+.for-canvas {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#canvas {
+	border: 2px solid #d317ba;
+	cursor: crosshair;
+	background-color: #cec2cd;
+}
+
+#canvas2 {
+	border: 2px solid #d317ba;
+	background-color: #cec2cd;
+}
+
+#div-remote-img {
+	display: none;
+}
+
+#crop-mode-img {
+	width: 32px;
+	height: 32px;
+	background: url(off.png);
+	cursor: pointer;
+}
+
+.modal-dialog {
+ 	position: fixed;
+ 	top: 0;
+ 	right: 0;
+ 	bottom: 0;
+ 	left: 0;
+ 	background: rgba(0,0,0,0.6);
+ 	-webkit-transition: opacity 400ms ease-in;
+ 	-moz-transition: opacity 400ms ease-in;
+ 	transition: opacity 400ms ease-in;
+ 	display: none;
+ 	pointer-events: none;
+}
+
+.modal-dialog:target {
+ 	display: block;
+ 	pointer-events: auto;
+}
+ 
+.modal-dialog > div {
+ 	width: 600px;
+ 	position: relative;
+ 	margin: 10% auto;
+ 	padding: 10px 10px 10px 10px;
+ 	border-radius: 5px;
+ 	background: #bca9ba;
+}
+
+.close {
+ 	background: #ff6938;
+ 	color: #FFFFFF;
+ 	position: absolute;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	font-weight: bold;
+ 	-moz-box-shadow: 1px 1px 3px #000;
+ 	-webkit-box-shadow: 1px 1px 3px #000;
+ 	box-shadow: 1px 1px 3px #000;
+}
+ 
+.close:hover { 
+	background: #f94b11; 
+}
+
+#replace {
+	margin-left: 350px;
+	border: 1px solid #d317ba;
+}
+
+#save-as-div {
+	margin-left: 100px;
+	border: 1px solid #d317ba;
+}
+
+#save-as-div > a, #replace > a {
+	text-decoration: none;
+}
+
+.crop-mode-div {
+	margin-left: 15%;
+	margin-top: 30px;
+}
+
+.crop-mode-div > div > p {
+	font-size: 25px;
+	margin-right: 10px;
+}
+
+.crop-pop-up {
+	margin-left: 25%;
+	margin-top: 25px;
+}
+
+.crop-pop-up > a {
+	font-size: 25px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#div-local-img, #div-remote-img {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+#div-remote-img>button {
+	font-weight: bold;
+}
+
+.notation {
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+.reset {
+	margin-right: 100px;
+}
+
+.reset > a {
+	font-size: 25px;
+	text-decoration: none;
+	font-family: Arial;
+}

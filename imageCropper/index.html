@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>IMG Cropper</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="main.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="check-path">
+				<div class="flex-row">
+					
+					<div class="local-button">
+						<input type="radio" name="patch" checked="true" id="local-radio" onchange="checkInput()">
+						<p>
+							Local
+						</p>
+					</div>
+					
+					<div class="remote-button">
+						<input type="radio" name="patch" id="remote-radio" onchange="checkInput()">
+						<p>
+							Remote
+						</p>
+					</div>
+				</div>
+				
+				<div id="div-local-img">
+					<input type="file" id="sourseLocal" accept="image/jpeg, image/png, image/gif" onchange="getInputValueLocal()">
+				</div>
+
+				<div id="div-remote-img">
+					<input type="url" id="sourceRemote"> 
+					<button onclick="getInputValueRemote()"> Paste</button>
+				</div>
+				
+				<div class="notation">
+					<p>
+						max-width: 1000px, max-heigth: 500px
+					</p>
+				</div>
+			</div>
+			
+			<div class="flex-row">
+				<div class="crop-mode-div flex-row">
+					<div class="reset">
+						<a href="index.html">
+							<img src="repeat.png" alt="repeat"> 
+							Try again
+						</a>
+					</div>
+					
+					<div>
+						<p>
+							Crop mode
+						</p>
+					</div>
+					
+					<div id="crop-mode-img" onclick="init()">
+						
+					</div>
+				</div>
+				
+				<div class="crop-pop-up">
+					<a href="#open-modal"  onclick="draw()">
+						Crop
+						<img src="crop.png" alt="crop">
+					</a>
+				</div>
+			</div>
+			
+			<div class="for-canvas">
+				<canvas id="canvas" width="1000" height="500">
+					
+				</canvas>	
+			</div>
+
+			<div id="open-modal" class="modal-dialog">
+   				<div>
+    				<div class="for-canvas">
+						<canvas id="canvas2" width="600" height="300">
+					
+						</canvas>	
+					</div>
+				
+					<div>
+      					<a href="#close" title="Close" class="close">Cansel</a>
+					</div>
+			
+					<div class="flex-row">
+						<div id="replace">
+							<a href="#" onclick="replace()">Replace</a>
+						</div>
+				
+						<div id="save-as-div">
+							<a href="#" id="save_as" download="img.png" onclick="save()">Save As</a>
+						</div>
+					</div>
+   				</div>
+			</div>
+		</div>
+	</body>
+</html>
