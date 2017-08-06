@@ -1,0 +1,261 @@
+@media screen and (max-width: 739px) {
+		
+		.container {
+			margin: 0 auto;
+			width: 320px;	
+	}
+
+.nav {
+  margin-top: 40px;
+}
+
+.main-menu-list li {
+    display: block;
+  	padding: 3px;
+}
+
+.main-menu-list>li>a {
+  color: #fc5f45
+}
+
+.header-display-block-xs {
+	display: block;
+}
+
+.text-love-passion {
+  	font-size: 12px;
+  	height: 100px;
+  	width: 320px;
+  	margin-top: 40%;
+}
+
+.our-advantages {
+  	font-size: 12px;
+  	display: block;
+}
+
+.our-advantages-leveling {
+  margin-left: 0.3%;
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+.about-us-photo {
+	display: none;
+}
+
+.about-us {
+  	width: 320px;
+  	height: 350px;
+  	margin: 0 auto;
+}
+
+.about-us-title {
+  margin-left: 5px;
+}
+
+.about-us-text {
+  margin-left: 5px;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.our-focus-display-block-xs {
+	display: block;
+}
+
+.our-focus {
+  margin-top: -45%;
+}
+
+.our-focus-leveling {
+  margin-left: 70px;
+}
+
+.explore-awesom-leveling {
+  	text-align: center;
+  	margin-top: 21%;
+}
+
+.portfolio {
+  	margin-top: 25%;
+}
+
+.portfolio-img-xs {
+	display: none;
+}
+
+.all-portfolio-img-leveling {
+  margin-left: 0;
+}
+
+.our-team {
+  margin-top: -25%;
+}
+
+.our-team-display-block-xs {
+	display: block;
+}
+
+.all-person-leveling {
+  margin-left: 0;
+}
+
+.statistic-bg-img {
+  background: #f7f7f7;
+}
+
+.statistics {
+	margin-top: 20%;
+}
+
+.statistics-display-block-xs {
+	display: block;
+}
+
+.all-statistics-leveling {
+  margin-top: 30px;
+  color: black;
+  margin-left: 0;
+
+}
+
+.all-statistics-leveling>p {
+  color: black;
+}
+
+.all-statistics-leveling>h2 {
+  color: black;
+}
+
+
+.work-steps {
+	margin-top: 90%;
+}
+
+.first-step, .second-step, .fourth-step, .third-step  {
+  margin-top: 5%;
+  margin-left: 0;
+}
+
+.all-steps-leveling {
+  width: 320px;
+  height: 270px;
+  background-color: white;
+  padding: 10px 10px 0px 10px;
+}
+
+.all-steps-leveling > p {
+	font-size: 12px;  
+}
+
+.pricing-table {
+ /*Bad practice, but it don't work wiht out top: 1500px*/
+  margin-top: 1500px;  /*!!!!!!!!!!*/
+    /* MUST FIX */
+}
+
+.all-pricing-tables {
+  margin-left: 0;
+}
+
+.why-select-us {
+  margin-top: -15%;
+}
+
+.our-suggestions {
+  margin-left: 0;
+}
+
+.your-journy-display-block-xs {
+	display: block;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.your-journy-with-us {
+	margin-top: 10%;
+}
+
+.first-blog-message, .second-blog-message {
+  width: 320px;
+  height: 280px;
+  margin-left: -25%;
+  padding: 0 10px 0 0;
+}
+
+.subscribe-title {
+  font-size: 14px;
+    width: 320px;
+  }
+
+.enter-email>input {
+  height: 50px;
+  font-size: 14px;
+  border-radius: 20px 0 0 20px;
+  width: 200px;
+  padding: 0 0 0 20px;
+}
+
+.submit-button>input {
+  height: 54px;
+  font-size: 14px;
+  border-radius: 0 20px 20px 0;
+  width: 120px;
+}
+
+.form {
+  width: 320px;
+}
+
+
+.all-enter-text-places>input {
+  width: 145px;
+  height: 45px;
+  font-size: 14px;
+  border: none;
+  margin-top: 25px;
+  margin-left: 0px;
+}
+
+.text-area>input {
+  width: 320px;
+  height: 100px;
+  font-size: 14px;
+}
+
+.send-message>input {
+  height: 45px;
+  font-size: 14px;
+  border-radius: 20px;
+  width: 180px;
+}
+
+.xs-footer-display-block {
+  display: block;
+}
+
+.all-footer-blocks {
+  width: 320px;
+  height: 80px;
+  margin-bottom: 0;
+  border-bottom: 0;
+  text-align: center;
+}
+
+.footer-logo {
+  height: 50px;
+}
+.footer-logo>div {
+  padding: 15px 0 0 0;
+}
+.all-links-footer {
+  padding: 0 0 0 65px;
+}
+
+}
+
+/*END*/

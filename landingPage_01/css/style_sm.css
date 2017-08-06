@@ -1,0 +1,215 @@
+@media screen and (max-width: 959px)  {
+	
+	.container {
+		margin: 0 auto;
+		width: 740px;	
+		
+	}
+
+.text-love-passion {
+  	font-size: 15px;
+  	height: 100px;
+  	width: 440px;
+  	margin-top: 20%;
+}
+
+.button-our-works {
+  	width: 180px;
+  	margin-top: 10%;
+}
+
+.our-advantages {
+  	font-size: 14px;
+}
+
+.our-advantages-leveling {
+  	margin-left: 75px;
+    font-size: 14px;
+}
+
+.our-focus-blocks-text2 {
+  	font-size: 12px;
+  	line-height: 1;
+}
+
+.our-focus-leveling {
+  	margin-left: 5px;
+  	margin-top: 5%;
+  	padding: 20px 10px 0px 10px;
+  	width: 163px;
+  	height: 250px;
+}
+
+.explore-awesom-leveling {
+  	text-align: center;
+  	margin-top: 21%;
+}
+
+.background-img-factory {
+  display: none;
+}
+
+.portfolio {
+  	margin-top: 15%;
+}
+
+.all-portfolio-img-leveling {
+  	margin-left: 10px;
+  	margin-top: 20px;
+}
+
+.disp-none-hover-up {
+	display: none;
+}
+
+.our-team {
+  margin-top: -20%;
+}
+.margot-robbie {
+	display: none;
+}
+
+.kristian-beil {
+	display: none;
+}
+
+.all-person-leveling {
+  	margin-left: 80px;
+}
+
+.statistic-bg-img {
+  margin-top: 5%;
+}
+
+.all-statistics-leveling {
+  margin-top: 150px;
+  margin-left: 40px;
+}
+
+.background-steps-img {
+  display: none;
+}
+
+.all-steps-leveling {
+  margin-top: 25px;
+}
+
+.first-step {
+  margin-top: 80px;
+  margin-left: 10%;
+}
+
+.second-step, .fourth-step {
+  margin-left: 15%;
+}
+
+.third-step {
+  margin-left: 10%;
+}
+
+.show-margo-kris-sm{
+	display: block;
+	margin-top: 10%;
+}
+
+.pricing-table-sm-display-block {
+	display: block;
+}
+
+.all-pricing-tables {
+  	width: 200px;
+  	height: 550px;
+  	margin-left: 30%;
+  	margin-top: 50px;
+  	text-align: center;
+  	background-color: white;
+}
+
+.pricing-table {
+ /*Bad practice, but it don't work wiht out top: 1600px*/
+  margin-top: 1500px;  /*!!!!!!!!!!*/
+    /* MUST FIX */
+}
+.testemonils-bg-color {
+	display: none;
+}
+
+.why-select-us-bg-color-white {
+    margin-top: 50px;
+    padding: 20px 0 0 0;
+}
+
+.why-select-us-display-block-sm {
+	display: block;
+	margin-left: 30%;
+}
+
+.why-select-us {
+  margin-top: -50px;
+}
+
+.your-journy-with-us > div > h2 {
+  font-size: 20px;
+  margin-left: 20%;
+}
+
+.our-blog-img {
+    display: none;
+}
+
+.for-margin-blog-section {
+    display: block;
+    margin-left: 20%;
+}
+
+.sm-our-blog-display-none {
+    display: none;
+}
+
+.all-enter-text-places>input {
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.text-area>input {
+    width: 430px;
+    height: 100px;
+    font-size: 14px;
+}
+
+.form {
+    width: 430px;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+.all-footer-blocks {
+    width: 180px;
+    height: 150px;
+}
+
+.adress-one>div>h2, .addres-two>div>h2, .follow-us>div>h2 {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.adress-one>div>p, .addres-two>div>p {
+    font-size: 14px;
+}
+
+.tw, .insta, .google {
+    margin-left: 10px;
+}
+
+.fb {
+    margin-left: 20px;
+}
+
+.footer {
+    margin-top: 5%;
+}
+
+}
+
+/*END*/

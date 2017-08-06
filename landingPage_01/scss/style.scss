@@ -1,0 +1,845 @@
+// My fonts
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/Poppins-Regular.ttf");		 
+}
+
+@font-face {
+	font-family: "Sacramento-Regular";
+	src: url("../fonts/Sacramento-Regular.ttf");
+}
+
+@font-face {
+	font-family: "myriadpro-regular";
+	src: url("../fonts/myriadpro-regular.ttf");
+}
+
+@font-face {
+	font-family: "LibreBaskerville-Regular";
+	src: url("../fonts/LibreBaskerville-Regular.ttf");
+}
+
+body {
+	margin: 0; 
+ 	padding: 0;
+ 	background-color: #f7f7f7;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+/*----------------------------- Header styles -------------------------*/
+.logo-main-menu {
+	height: 75px;
+}
+.logo {
+	margin-top: 1%;
+	margin-left: 2.4%;	
+}
+
+.nav {
+	ul {
+		list-style: none; 
+  		margin: 0; 
+  		padding-left: 0;
+	}
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+ 	font-family: "Poppins";
+ 	font-weight: bold;
+}
+
+.main-menu-list {
+	li {
+		display: inline;
+		padding: 20px;
+	}
+}
+
+.main-menu-list {
+	li { 
+		a:hover {
+			color: rgb(255, 79, 50);
+			border-bottom: 2px solid rgb(255, 79, 50);
+		}
+	}
+}
+
+/* Styles for main menu */
+.nav {
+	margin-top: 1.5%;
+	margin-left: 10%;
+}
+
+/** 
+*	Styles for alignment on one line LOGO and main menu. 
+*	And alignment on one line our-advantages :
+*	header1, header2, header3
+*	FIXED PRICE PROJECT
+*	RECEIVE ON TIME
+*	SATISFACTION GURANTEED	
+*/
+.flex-row, .our-advantages {
+	display: flex;
+	flex-direction: row;
+}
+
+/* ------------------------------------ Love & Passion Section----------------------------*/
+/** 
+* I wrote selector and leaved space for image
+*	.backgroundImg {
+*		height: 850px;
+*		width: 100%;
+*		background-image: url(../img/LovePassion.png);
+*	}
+*/
+
+// .backgroundImg {
+// 	height: 850px;
+// 	width: 100%;
+// 	background-image: url(../img/city.png);
+// 	// position: relative;
+// }
+
+// .love-passion {
+// 	// position: relative;
+// 	height: 850px;
+// }
+
+
+// Don't work, must fix
+.text-love-passion {
+  	// position: absolute;
+	// margin-left: 20%;
+	margin: 0 auto;
+  	// top: 15%;
+	font-size: 30px;
+  	font-family: "LibreBaskerville-Regular";
+  	text-align: center;
+  	margin-top: 15%;
+  	height: 200px;
+  	// top: 20%;
+  	 //margin-left: 11%; // @media check
+  	width: 840px;
+}
+
+.our-works {
+  	color: #fff; 
+	font-size: 16px;
+  	font-family: "Poppins";
+  	background-color: rgb(252, 95, 69);
+  	border-radius: 22px;
+ 	padding: .6em 2.6em; 	
+}
+
+.our-works:hover {
+	background-color: rgb(255, 79, 50)
+}
+
+.button-our-works {
+	// position: absolute;
+	margin: 0 auto;
+	width: 180px;
+	margin-top: -1px;
+}
+
+.our-advantages {
+	font-size: 20px;
+ 	font-family: "Poppins";	
+}
+
+.header1 {
+	color: rgb(56, 198, 149);
+}
+
+.header2 {
+	color: rgb(178, 124, 245);
+}
+
+.header3 {
+	color: rgb(254, 185, 96);
+}
+
+.our-advantages-leveling {
+	margin-left: 157px;
+	margin-top: 93px;
+	text-align: center;
+}
+
+/**
+*	.backgroundImg {
+*		height: 850px;
+*	} 
+*/
+
+	
+/* ------------------------------------------------ About Us. ---------------------------------*/
+.about-us-photo {
+		//margin-top: 295px; 
+		//margin-left: 30px;
+		// position: relative;
+		height: 700px;
+		width: 550px;
+		background: url(../img/about_us_phohto.png);
+}
+
+.about-us-leveling {
+	margin-top: 26%;
+	margin-left: 3%;
+}
+
+.about-us {
+	/* position: relative; */
+	background: url(../img/01.png) no-repeat;
+	background-color: white;
+	width: 652px;
+	height: 550px;
+	margin-left: -60px;
+	margin-top: 80px;
+	/** 
+	*	left:520px;
+	*	top:370px; 
+	*/
+	// margin-left: 520px;
+	// margin-top: 450px;
+	// position: absolute;
+}
+
+.title {
+	font-size: 50px;
+    font-family: "LibreBaskerville-Regular";
+    color: rgb(49, 49, 49);
+    font-weight: bold;
+}
+
+/** 
+*	Styles for about-us-text section
+*	 	Analytics release series A financing launch party...
+*/
+.text {
+	font-size: 15px;
+    font-family: "myriadpro-regular";
+    color: rgb(97, 97, 97);
+}
+
+/* About Us. */
+.about-us-title {	
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.about-us-text {
+    word-spacing: 10px;
+   	margin-left: 80px;
+   	line-height: 2;
+}
+
+/* Styles for put a line down the block */
+.for-bottom-lines {
+	margin-bottom: 75px;
+}
+
+/* ------------------------------------- Our Focus. ------------------------------ */
+.our-focus-title {
+	text-align: center;
+	margin-top: 280px;
+}
+
+.our-focus-text, .portfolio-text, .team-text, .steps-text, .pricing-text, .testimonials-text-2, .why-select-us-text-2 {
+	text-align: center;
+	font-size: 18px;
+    font-family: "Poppins";
+    color: rgb(97, 97, 97);
+}
+
+.our-focus-blocks-text {
+	font-size: 20px;
+    font-family: "Poppins";
+    color: rgb(49, 49, 49);
+    /* text-align: center; */
+}
+
+.our-focus-blocks-text2 {
+	font-size: 15px;
+    font-family: "Poppins";
+    color: rgb(97, 97, 97);
+    line-height: 1.667;
+    /* text-align: center; */
+}
+
+.our-focus-leveling {
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 5%;
+	background-color: white;
+	padding: 40px 10px 0px 10px;
+	width: 263px;
+	height: 300px;
+}
+
+.web-design, .tom-hanks, .first-step, .slider-element {
+	border-bottom: 3px solid #fc5f45;
+}
+
+.ux-design, .tom-hardy, .second-step {
+	border-bottom: 3px solid #38c695;
+}
+
+.photography, .margot-robbie, .third-step {
+	border-bottom: 3px solid #b27cf5;
+}
+
+.app-development, .kristian-beil, .fourth-step {
+	border-bottom: 3px solid #feb960;
+}
+/* ------------------------------------------------ Block with VIDEO ------------------------------*/
+
+// video { 
+//  	// position: fixed;
+ 
+//   	top: 50%;
+//   	left: 50%;
+//   	min-width: 100%;
+//   	min-height: auto;
+//   	width: auto;
+//   	height: auto;
+//   	z-index: -100;
+//   	transform: translate(-50%, -50%);
+// }
+// 	 //height: 500px;
+
+
+/**
+*	.fullscreen {
+*    	position: fixed;
+*    	top: 50%;
+*    	left: 50%;
+*    	min-width: 100%;
+*    	min-height: 100%;
+*    	width: auto;
+*    	height: auto;
+*    	z-index: -100;
+*    	transform: translateX(-50%);
+*  		background-size: cover;
+*	} 
+*/
+
+/* Styles for section with video */
+.explore-awesom-leveling {
+	text-align: center;
+	margin-top: 21%;
+}
+
+/**
+*	 Color of eplore-our-awesom-title must be
+*	 white, but I set color: black; Because
+*	 I don't have the background video and at that 
+*	 moment my background is white
+*/
+.explore-our-awesom-title {
+	font-size: 30px;
+    font-family: "Poppins";
+    color: black;	
+}
+
+/** 
+*	Styles for leveling block with 
+* 	text : Click to play the video
+*	But this style doesn't work good
+*/
+.clik-to-play-video {
+	margin-top: 20px;
+}
+
+/* Styles for text */
+.play-text {
+	font-size: 18px;
+}
+.play-cursor:hover {
+	cursor: pointer;
+}
+/* --------------------------------------- Portfolio. ----------------------------- */
+.portfolio {
+	margin-top: 22%;
+}
+
+.portfolio-title {
+	text-align: center;
+}
+
+.all-portfolio-img-leveling {
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.all-portfolio-img-leveling:hover {
+	/* cursor: pointer; */
+	-webkit-transform: scale(0.8,0.8);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 550ms;
+	-moz-transform: scale(0.8,0.8);
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 550ms;
+}
+
+.all-portfolio-img-leveling:hover::after {
+    content: attr(data-title); 
+    position: absolute; 
+    left: 0; right: 0; top: 300px; 
+    z-index: 1; 
+    text-align: center; 
+    font-family: "Poppins";
+    font-size: 25px; 
+    padding: 5px 10px; 
+}
+
+/* ----------------------------------------- Our Team. ---------------------------- */
+.out-team {
+	margin-top: 22%;
+}
+
+.our-team-text {
+	text-align: center;
+	margin-top: 255px;
+}
+
+.all-person-leveling {
+	margin-left: 30px;
+	margin-top: 35px;
+	text-align: center;
+}
+
+.person1 {
+	font-size: 20px;
+    font-family: "Poppins";
+    color: #fc5f45;
+}
+
+.person2 {
+	font-size: 20px;
+    font-family: "Poppins";
+    color: #38c695;
+}
+
+.person3 {
+	font-size: 20px;
+    font-family: "Poppins";
+    color: #b27cf5;
+}
+
+.person4 {
+	font-size: 20px;
+    font-family: "Poppins";
+    color: #feb960;
+}
+
+.all-person-leveling>p {
+	font-family: "Poppins";
+	font-size: 14px;
+}
+
+.all-person-leveling>img {
+	min-width: 263px;
+}
+
+/* ----------------------------------------- About Bennet -------------------------------- */
+/**
+*	.disp-none-hover-up {
+*		display: none;
+*	} 
+*/
+
+.about-bennet-background {
+	height: 410px;
+	background-image: url(../img/TeamBackground.png);
+	position: absolute;
+	width: 1180px;
+}
+
+.about-bennet-leveling>h2 {
+	font-size: 20px;
+    font-family: "Poppins";
+    color: rgb(39, 39, 39);
+    margin-top: 85px;
+    margin-left: 125px;
+}
+
+.about-bennet-leveling>p {
+	font-size: 15px;
+    font-family: "Poppins";
+    margin-top: 10px;
+    margin-left: 125px;
+    float: left;
+}
+
+.links-img {
+	margin-top: 10px;
+	margin-left: 100px;;
+	text-align: center;
+	float: left;
+	width: 110px;
+	height: 150px;
+	border-right: 2px solid #efefef;
+	img {
+		margin-top: 50px;
+	}
+}
+
+.social-network-links>li {
+	display: block;
+	text-decoration: none;
+}
+
+.social-network-links {
+	padding: 20px 0px 10px 20px;
+}
+
+/* It doesn't work */
+.tom-hanks:hover .disp-none-hover-up { 
+	display: block;
+}
+
+/* ---------------------------------- Statistics Block with numbers ----------------------*/
+.statistics {
+	margin-top: 40%;
+	height: 464px;
+	// width: 100%;
+	// background-image: url(../img/Statsbg.png);
+} 
+
+.all-statistics-leveling {
+	text-align: center;
+	margin-top: 150px;
+	margin-left: 130px;
+}
+
+.all-statistics-leveling>h2 {
+	font-size: 20px;
+    font-family: "Poppins";
+    color: black;
+}
+
+.all-statistics-leveling>p {
+	font-size: 15px;
+    font-family: "Poppins";
+    color: black;
+    margin-bottom: 30px;
+}
+
+/* --------------------------------------- Work Steps. ---------------------------------- */
+.work-steps {
+	margin-top: 130px;
+}
+
+.work-steps-text, .pricing-table-text {
+	text-align: center;
+}
+
+.all-steps-leveling {
+	width: 460px;
+	height: 270px;
+	background-color: white;
+	padding: 20px 20px 0px 20px;
+}
+
+.all-steps-leveling>.flex-row>h2 {
+	font-family: "Poppins";
+}
+
+.all-steps-leveling>p {
+	margin-left: 90px;
+	font-family: "Poppins";
+}
+
+.full-widht-line {
+	margin-top: 21px;
+	min-width: 480px;
+	max-height: 3px;
+}
+
+.first-step {
+	margin-top: 80px;
+	margin-left: 10%;
+	//position: absolute;
+}
+
+.second-step, .fourth-step {
+	margin-left: 55%;
+}
+
+.third-step {
+	margin-left: 10%;
+}
+
+/* ------------------------------------------ Pricing Table. ------------------------------ */
+.pricing-table {
+	margin-top: 25%;
+}
+
+.all-pricing-tables {
+	min-width: 360px;
+	height: 575px;
+	margin-left: 30px;
+	margin-top: 50px;
+	text-align: center;
+	background-color: white;
+}
+
+// .full-widht-line-for-pricing-table {
+// 	min-width: 360px;
+// 	height: 3px;
+// }
+
+.ultimate {
+	border-top: 3px solid #fc5f45;
+}
+
+.starter {
+	border-top: 3px solid #38c695;
+}
+
+.professional {
+	border-top: 3px solid #b27cf5;
+}
+
+.all-pricing-tables>h2, .price-text-leveling>h3 {
+	font-size: 20px;
+    font-family: "Poppins";
+    color: rgb(49, 49, 49);
+}
+
+.color-circle-price-green {
+	width: 114px;
+	height: 114px;
+	background-image: url(../img/bgGreen.png);
+	margin: 0 auto;
+}
+
+.color-circle-price-red {
+	width: 114px;
+	height: 114px;
+	background-image: url(../img/bgred.png);
+	margin: 0 auto;
+}
+
+.color-circle-price-pur {
+	width: 114px;
+	height: 114px;
+	background-image: url(../img/bgP.png);
+	margin: 0 auto;	
+}
+
+.price-text-leveling>h3 {
+	font-size: 20px;
+    font-family: "Poppins";
+    color: white;
+	padding: 25px;
+}
+
+.price-text-leveling>p {
+	margin-top: -40px;
+	font-family: "Poppins";
+    color: white;
+    font-size: 12px;
+}
+
+.all-pricing-tables>p {
+	font-size: 15px;
+    font-family: "Poppins";
+    color: rgb(39, 39, 39);
+}
+
+.button-get-started {
+	background: white; 
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: bold;
+    padding: 10px 35px 10px 35px;
+    border-radius: 25px;
+    border: 3px solid;
+    outline: none; 
+    margin-top: 35px;
+}
+
+.button-get-started-green {
+    color: #38c695;  
+}
+
+.button-get-started-red {
+    color: #fc5f45;  
+}
+
+.button-get-started-pur {
+    color: #b27cf5;  
+}
+
+.button-get-started:hover {
+	color: white;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.button-get-started-green:hover {
+	background: #38c695;	
+}
+
+.button-get-started-red:hover {
+	background: #fc5f45;	
+}
+
+.button-get-started-pur:hover {
+	background: #b27cf5;	
+}
+
+/* ----------------------------------------- Testimonials. -------------------------------*/
+.testimonials {
+	// text-align: center;
+	//margin-top: 35%;
+	//height: 775px;
+	//width: 100%;
+	// background-color: #3f4049;
+	margin-top: 165px;
+	// padding: 100px 0px 0px 0px;
+}
+
+.slider-photo {
+	height: 389px;
+	width: 384px;
+	background: url(../img/melina.png) no-repeat;
+	// position: relative;
+	border: 5px solid rgba(215, 219, 226, 0.3);
+	margin-top: 3%;
+}
+.testimonials-text>h1, .testimonials-text>p {
+	color: balck;
+}
+
+.testimonials-text {
+	text-align: center;
+	margin-top: 25%;
+}
+.slider-element {
+	//margin-top: 110px;
+	// margin-left: 480px;
+	height: 308px;
+	width: 768px;
+	background: url(../img/_.png) no-repeat;
+	background-color: white;
+	// position: absolute;
+	margin-top: 7%;
+}
+
+.slider-element>p {
+	font-size: 15px;
+    font-family: "Poppins";
+    color: rgb(97, 97, 97);
+    line-height: 1.8;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.slider-element>h2 {
+	font-size: 40px;
+    font-family: "Sacramento-Regular";
+    color: rgb(39, 39, 39);
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.slider-element>h3 {
+	font-size: 18px;
+    font-family: "Poppins";
+    color: rgb(39, 39, 39);
+    line-height: 1.444;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.slider-element>h4 {
+	font-size: 13px;
+    font-family: "Poppins";
+    color: rgb(252, 95, 69);
+    line-height: 1.154;
+    margin-left: 30px;
+}
+
+.slider-buttons {
+	width: 16px;
+	height: 16px;
+	background: url(../img/stats1+.png) no-repeat;
+	display: inline-block;
+	// margin-left: 30%;
+	cursor: pointer;
+
+}
+
+.slider-buttons:hover {
+	background: url(../img/stats2+.png) no-repeat;
+}
+
+.all-slider-buttons {
+margin-left: 78%;
+}
+
+/* ------------------------------------------- Why Select Us?--------------------------------*/
+.why-select-us {
+	margin-top: 20%;
+}
+
+.why-select-us-text {
+	text-align: center;
+	margin-top: 140px;
+}
+
+.our-suggestions>div>img {
+	position: absolute;
+}
+
+.our-suggestions>div>h2 {
+	margin-top: -10px;
+	margin-left: 80px;
+	font-size: 18px;
+    font-family: "Poppins";
+    color: rgb(39, 39, 39);	
+} 
+
+.our-suggestions>p {
+    font-size: 15px;
+    font-family: "Poppins";
+} 
+
+.our-suggestions {
+	margin-top: 45px;
+	margin-left: 70px;
+}
+
+/* -------------------------------- Your journy with us block -----------------------*/
+
+.your-journy-with-us {
+	margin-top: 120px;
+}
+
+.your-journy-with-us>div>h2 {
+	font-size: 25px;
+    font-family: "Poppins";
+     margin-left: 26%;
+}
+
+.your-journy-with-us>div>input {
+	margin-left: 30px;
+	height: 50px;
+	margin-top: 10px;
+	background: #fc5f45; 
+	color: white;
+}
+
+.your-journy-with-us>div>input:hover {
+	background: rgb(255, 79, 50);
+}
+
+/* END */

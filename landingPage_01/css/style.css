@@ -1,0 +1,1119 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Sacramento-Regular";
+  src: url("../fonts/Sacramento-Regular.ttf");
+}
+
+@font-face {
+  font-family: "myriadpro-regular";
+  src: url("../fonts/myriadpro-regular.ttf");
+}
+
+@font-face {
+  font-family: "LibreBaskerville-Regular";
+  src: url("../fonts/LibreBaskerville-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+/*----------------------------- Header styles -------------------------*/
+.logo-main-menu {
+  height: 75px;
+}
+
+.logo {
+  margin-top: 1%;
+  margin-left: 2.4%;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.main-menu-list li {
+  display: inline;
+  padding: 20px;
+}
+
+.main-menu-list li a:hover {
+  color: #ff4f32;
+  border-bottom: 2px solid #ff4f32;
+}
+
+/* Styles for main menu */
+.nav {
+  margin-top: 1.5%;
+  margin-left: 10%;
+}
+
+.flex-row, .our-advantages {
+  display: flex;
+  flex-direction: row;
+}
+
+/* ------------------------------------ Love & Passion Section----------------------------*/
+ 
+.backgroundImg {
+	width: 100%;
+	background: url(../img/work_place.png) no-repeat;
+    padding: 0 0 10vh 0; /* ****** !!!*/
+}
+
+.love-passion {
+  padding: 20vh 0 0 0;
+}
+
+.text-love-passion {
+  margin: 0 auto;
+  font-size: 30px;
+  font-family: "LibreBaskerville-Regular";
+  text-align: center;
+  height: 200px;
+  width: 840px;
+  color: white;
+}
+
+.our-works {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Poppins";
+  background-color: #fc5f45;
+  border-radius: 30px;
+  padding: 15px 40px 15px 40px;
+}
+
+.our-works:hover {
+  background-color: #ff4f32;
+}
+
+.button-our-works {
+  margin: 0 auto;
+  width: 180px;
+  margin-top: 5px;
+}
+
+.header1 {
+  color: #38c695;
+}
+
+.header2 {
+  color: #b27cf5;
+}
+
+.header3 {
+  color: #feb960;
+}
+
+.our-advantages-leveling {
+  margin-left: 157px;
+  margin-top: 93px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+
+/* ------------------------------------------------ About Us. ---------------------------------*/
+
+.about-us-photo {
+  height: 700px;
+  width: 550px;
+  background: url(../img/about_us_phohto.png);
+  border: 4px outset #cccccc;
+}
+
+.about-us-leveling {
+  margin-top: 20%;
+  margin-left: 3%;
+}
+
+.about-us {
+  background: url(../img/01.png) no-repeat;
+  background-color: white;
+  width: 652px;
+  height: 550px;
+  margin-left: -60px;
+  margin-top: 80px;
+}
+
+.title {
+  font-size: 50px;
+  font-family: "LibreBaskerville-Regular";
+  color: #313131;
+  font-weight: bold;
+}
+
+/** 
+*	Styles for about-us-text section
+*	 	Analytics release series A financing launch party...
+*/
+.text {
+  font-size: 15px;
+  font-family: "myriadpro-regular";
+  color: #616161;
+}
+
+/* About Us. */
+.about-us-title {
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+.about-us-text {
+  word-spacing: 10px;
+  margin-left: 80px;
+  line-height: 2;
+}
+
+/* Styles for put a line down the block */
+.for-bottom-lines {
+  margin-bottom: 75px;
+}
+
+/* ------------------------------------- Our Focus. ------------------------------ */
+.our-focus-title {
+  text-align: center;
+  margin-top: 280px;
+}
+
+.our-focus-text, .portfolio-text, .team-text, .steps-text, .pricing-text, .testimonials-text-2, .why-select-us-text-2 {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Poppins";
+  color: #616161;
+}
+
+.our-focus-blocks-text {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: #313131;
+}
+
+.our-focus-blocks-text2 {
+  font-size: 15px;
+  font-family: "Poppins";
+  color: #616161;
+  line-height: 1.667;
+}
+
+.our-focus-leveling {
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 5%;
+  background-color: white;
+  padding: 40px 10px 0px 10px;
+  width: 263px;
+  height: 300px;
+}
+
+.web-design, .tom-hanks, .first-step, .slider-element {
+  border-bottom: 3px solid #fc5f45;
+}
+
+.ux-design, .tom-hardy, .second-step {
+  border-bottom: 3px solid #38c695;
+}
+
+.photography, .margot-robbie, .third-step {
+  border-bottom: 3px solid #b27cf5;
+}
+
+.app-development, .kristian-beil, .fourth-step {
+  border-bottom: 3px solid #feb960;
+}
+
+/* ------------------------------------------------ Block with VIDEO ------------------------------*/
+
+.background-img-factory {
+  margin-top: 11%;
+  width: 100%;
+  height: 500px;
+  background: url(../img/factory.png) no-repeat;
+  padding: 115px 0 0 0;
+}
+
+/* Styles for section with video */
+.explore-awesom-leveling {
+  text-align: center;
+}
+
+.explore-our-awesom-title {
+  font-size: 30px;
+  font-family: "Poppins";
+  color: white;
+}
+
+.clik-to-play-video {
+  margin-top: 20px;
+}
+
+/* Styles for text */
+.play-text {
+  font-size: 18px;
+  color: black;
+}
+
+.play-cursor:hover {
+  cursor: pointer;
+}
+
+/* --------------------------------------- Portfolio. ----------------------------- */
+.portfolio {
+  margin-top: -1%;
+}
+
+.portfolio-title {
+  text-align: center;
+}
+
+.all-portfolio-img-leveling {
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 360px;
+  height: 290px;
+}
+
+.all-portfolio-img-leveling:hover {
+  -webkit-transform: scale(0.8, 0.8);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 550ms;
+  -moz-transform: scale(0.8, 0.8);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 550ms;
+}
+
+.all-portfolio-img-leveling:hover::after {
+  content: attr(data-title);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 300px;
+  z-index: 1;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 25px;
+  padding: 5px 10px;
+}
+
+
+/* ----------------------------------------- Our Team. ---------------------------- */
+.our-team {
+  margin-top: 22%;
+}
+
+.our-team-text {
+  text-align: center;
+  margin-top: 255px;
+}
+
+.all-person-leveling {
+  margin-left: 30px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.person1 {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: #fc5f45;
+}
+
+.person2 {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: #38c695;
+}
+
+.person3 {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: #b27cf5;
+}
+
+.person4 {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: #feb960;
+}
+
+.all-person-leveling > p {
+  font-family: "Poppins";
+  font-size: 14px;
+}
+
+.all-person-leveling > img {
+  min-width: 263px;
+}
+
+/* ----------------------------------------- About Bennet -------------------------------- */
+
+.about-bennet-background {
+  height: 410px;
+  background-image: url(../img/TeamBackground.png);
+  position: absolute;
+  width: 1180px;
+}
+
+.about-bennet-leveling > h2 {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: #272727;
+  margin-top: 85px;
+  margin-left: 125px;
+}
+
+.about-bennet-leveling > p {
+  font-size: 15px;
+  font-family: "Poppins";
+  margin-top: 10px;
+  margin-left: 125px;
+  float: left;
+}
+
+.links-img {
+  margin-top: 10px;
+  margin-left: 100px;
+  text-align: center;
+  float: left;
+  width: 110px;
+  height: 150px;
+  border-right: 2px solid #efefef;
+}
+
+.links-img img {
+  margin-top: 50px;
+}
+
+.social-network-links > li {
+  display: block;
+  text-decoration: none;
+}
+
+.social-network-links {
+  padding: 20px 0px 10px 20px;
+}
+
+/* It doesn't work */
+.tom-hanks:hover .disp-none-hover-up {
+  display: block;
+}
+
+/* ---------------------------------- Statistics Block with numbers ----------------------*/
+.statistic-bg-img {
+    width: 100%;
+    background: url(../img/Statsbg.png) no-repeat;
+}
+
+.statistics {
+  margin-top: 40%;
+  height: 464px;
+}
+
+.all-statistics-leveling {
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 120px;
+}
+
+.all-statistics-leveling > h2 {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: white;
+}
+
+.all-statistics-leveling > p {
+  font-size: 15px;
+  font-family: "Poppins";
+  color: white;
+  margin-bottom: 30px;
+}
+
+/* --------------------------------------- Work Steps. ---------------------------------- */
+.background-steps-img {
+  position: absolute;
+  z-index: 2;
+  margin-left: 26%;
+  margin-top: 10%;
+}
+
+.all-bg-steps-omg-leveling {
+  height: 300px;
+  width: 556px;
+}
+
+.first-step-img {
+  background: url(../img/work_steps_1.png);
+}
+
+.second-step-img {
+  background: url(../img/work_steps_2.png);
+}
+
+.third-step-img {
+  background: url(../img/work_steps_3.png);
+}
+
+.four-step-img {
+  background: url(../img/work_steps_4.png);
+}
+
+
+.steps_steps {
+  position: absolute;
+  z-index: 3;
+  width: 1200px;
+  margin-top: 5%;
+
+}
+.steps-aa {
+    position: relative;
+}
+
+.work-steps {
+  margin-top: 11%;
+}
+
+.work-steps-text, .pricing-table-text {
+  text-align: center;
+}
+
+.all-steps-leveling {
+  width: 460px;
+  height: 270px;
+  background-color: white;
+  padding: 20px 20px 0px 20px;
+}
+
+.all-steps-leveling > .flex-row > h2 {
+  font-family: "Poppins";
+}
+
+.all-steps-leveling > p {
+  margin-left: 90px;
+  font-family: "Poppins";
+}
+
+.full-widht-line {
+  margin-top: 21px;
+  min-width: 480px;
+  max-height: 3px;
+}
+
+.second-step, .fourth-step {
+  margin-left: 58%;
+}
+
+/* ------------------------------------------ Pricing Table. ------------------------------ */
+.pricing-table { /*!!!!!!!!!!!!!!*/
+ /*Bad practice, but it don't work wiht out top: 1600px*/
+  margin-top: 1600px;  /*!!!!!!!!!!*/
+    /* MUST FIX */
+}
+
+.all-pricing-tables {
+  min-width: 360px;
+  height: 575px;
+  margin-left: 30px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: white;
+}
+
+.ultimate {
+  border-top: 3px solid #fc5f45;
+}
+
+.starter {
+  border-top: 3px solid #38c695;
+}
+
+.professional {
+  border-top: 3px solid #b27cf5;
+}
+
+.all-pricing-tables > h2, .price-text-leveling > h3 {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: #313131;
+}
+
+.color-circle-price-green {
+  width: 114px;
+  height: 114px;
+  background-image: url(../img/bgGreen.png);
+  margin: 0 auto;
+}
+
+.color-circle-price-red {
+  width: 114px;
+  height: 114px;
+  background-image: url(../img/bgred.png);
+  margin: 0 auto;
+}
+
+.color-circle-price-pur {
+  width: 114px;
+  height: 114px;
+  background-image: url(../img/bgP.png);
+  margin: 0 auto;
+}
+
+.price-text-leveling > h3 {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: white;
+  padding: 25px;
+}
+
+.price-text-leveling > p {
+  margin-top: -40px;
+  font-family: "Poppins";
+  color: white;
+  font-size: 12px;
+}
+
+.all-pricing-tables > p {
+  font-size: 15px;
+  font-family: "Poppins";
+  color: #272727;
+}
+
+.button-get-started {
+  background: white;
+  font-size: 16px;
+  font-family: "Poppins";
+  font-weight: bold;
+  padding: 10px 35px 10px 35px;
+  border-radius: 25px;
+  border: 3px solid;
+  outline: none;
+  margin-top: 35px;
+}
+
+.button-get-started-green {
+  color: #38c695;
+}
+
+.button-get-started-red {
+  color: #fc5f45;
+}
+
+.button-get-started-pur {
+  color: #b27cf5;
+}
+
+.button-get-started:hover {
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button-get-started-green:hover {
+  background: #38c695;
+}
+
+.button-get-started-red:hover {
+  background: #fc5f45;
+}
+
+.button-get-started-pur:hover {
+  background: #b27cf5;
+}
+
+/* ----------------------------------------- Testimonials. -------------------------------*/
+
+.testemonils-bg-color {
+    margin-top: 10%;
+    background-color: #3f4049;
+    padding: 100px 0 130px 0;
+}
+
+.slider-photo {
+  height: 389px;
+  width: 384px;
+  background: url(../img/melina.png) no-repeat;
+  border: 5px solid rgba(215, 219, 226, 0.3);
+  margin-top: 3%;
+}
+
+.testimonials-text > h1, .testimonials-text > p {
+  color: white;
+}
+
+.testimonials-text {
+  text-align: center;
+}
+
+.slider-element {
+  height: 308px;
+  width: 768px;
+  background: url(../img/_.png) no-repeat;
+  background-color: white;
+  margin-top: 7%;
+}
+
+.slider-element > p {
+  font-size: 15px;
+  font-family: "Poppins";
+  color: #616161;
+  line-height: 1.8;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.slider-element > h2 {
+  font-size: 40px;
+  font-family: "Sacramento-Regular";
+  color: #272727;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.slider-element > h3 {
+  font-size: 18px;
+  font-family: "Poppins";
+  color: #272727;
+  line-height: 1.444;
+  margin-left: 30px;
+  margin-top: -20px;
+}
+
+.slider-element > h4 {
+  font-size: 13px;
+  font-family: "Poppins";
+  color: #fc5f45;
+  line-height: 1.154;
+  margin-left: 30px;
+}
+
+.slider-buttons {
+  width: 16px;
+  height: 16px;
+  background: url(../img/stats1+.png) no-repeat;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.slider-buttons:hover {
+  background: url(../img/stats2+.png) no-repeat;
+}
+
+.all-slider-buttons {
+  margin-left: 78%;
+}
+
+/* ------------------------------------------- Why Select Us?--------------------------------*/
+.why-select-us-bg-color-white {
+    width: 100%;
+    background-color: white;
+    padding: 8% 0 0 0;
+}
+
+.why-select-us-text {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.our-suggestions > div > img {
+  position: absolute;
+}
+
+.our-suggestions > div > h2 {
+  margin-top: -10px;
+  margin-left: 80px;
+  font-size: 18px;
+  font-family: "Poppins";
+  color: #272727;
+}
+
+.our-suggestions > p {
+  font-size: 15px;
+  font-family: "Poppins";
+}
+
+.our-suggestions {
+  margin-top: 45px;
+  margin-left: 70px;
+}
+
+/* -------------------------------- Your journy with us block -----------------------*/
+.your-journy-with-us-bg-color-white {
+    background-color: white;
+    width: 100%;
+  padding: 120px 0 140px 0;
+
+}
+
+.your-journy-with-us > div > h2 {
+  font-size: 25px;
+  font-family: "Poppins";
+  margin-left: 26%;
+}
+
+.your-journy-with-us > div > input {
+  margin-left: 30px;
+  height: 50px;
+  margin-top: 10px;
+  background: #fc5f45;
+  color: white;
+}
+
+.your-journy-with-us > div > input:hover {
+  background: #ff4f32;
+}
+
+/* ----------------------------------------- Our Blog.---------------------*/
+.our-blog {
+	margin-top: 10%;
+}
+
+.for-margin-blog-section {
+	margin-top: 80px;
+}
+
+.our-blog-img {
+	height: 443px;
+	width: 555px;
+	background: url(../img/our-blog-photo.png);
+}
+
+.our-blog-img:hover {
+	cursor: pointer;
+}
+
+.all-blog-message {
+	height: 212px;
+	width: 555px;
+	background-color: grey;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+.third-blog-message {
+	height: 237px;
+	width: 555px;
+	background-color: grey;
+}
+
+.first-blog-message {
+	height: 212px;
+	width: 555px;
+	background-color: white;
+	margin-left: 30px;
+	margin-top: -30px;
+	border-bottom: 3px solid #38c695;
+}
+
+.blog-img-description {
+	margin-top: 70%;
+	margin-left: 50px;
+}
+
+.blog-img-description>div>h2 {
+	font-size: 15px;
+    font-family: "Poppins";
+    color: #fc5f45;
+}
+
+.blog-img-description>div>p {
+	font-size: 13px;
+    font-family: "Poppins";
+    color: #dadada;
+    margin-left: 20px;
+}
+
+.first-message-description { 
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.first-message-description>div>h2 {
+	font-size: 15px;
+    font-family: "Poppins";
+    color: #38c695;
+}
+
+.first-message-description>div>p {
+	font-size: 13px;
+    font-family: "Poppins";
+    color: #616161;
+    margin-left: 20px;
+}
+
+.title-blog-message {
+	margin-top: -10px;
+	margin-left: 40px;
+}
+
+.title-blog-message>h2 {
+	font-size: 18px;
+    font-family: "Poppins";
+    color: rgb(39, 39, 39);
+}
+
+.blog-text-message {
+	font-size: 15px;
+    font-family: "Poppins";
+    margin-left: 40px;
+}
+
+.blog-text-message>p>a {
+	color: #38c695;
+}
+
+.second-message-description {
+	margin-top: -5px;
+}
+
+.second-message-description>div>h2 {
+	color: #b27cf5;
+}
+
+.second-text-blog-message>p>a {
+	color: #b27cf5;
+}
+
+.second-blog-message {
+	border-bottom: 3px solid #b27cf5;
+	background-color: white;
+}
+
+.four-message-description {
+	margin-top: -5px;
+}
+
+.four-message-description>div>h2 {
+	color: #feb960;
+}
+
+.four-text-blog-message>p>a {
+	color: #feb960;
+}
+
+.four-blog-message {
+	border-bottom: 3px solid #feb960;
+	background-color: white;
+}
+
+.third-title-blog-message {
+	margin-top: 30px;
+}
+
+.third-text-blog-message>p>a {
+	color: #fc5f45;
+}
+
+.third-blog-message {
+	border-bottom: 3px solid #fc5f45;
+	background-color: white;
+}
+.third-text-blog-message {
+	margin-top: 25px;
+}
+
+/*------------------------------- Subscribe---------------------*/
+.background-color-for-subscribe {
+	height: 40vh;
+	width: 100%;
+	background-color: white;
+	margin-top: 10%;
+	padding: 15vh 0 0 0;
+}
+
+.subscribe-title {
+	font-size: 20px;
+    font-family: "Poppins";
+    margin: 0 auto;
+    width: 360px;
+    text-align: center;    
+}
+
+
+.enter-email>input {
+	height: 50px;
+	font-family: "Poppins";
+	font-size: 16px;
+	background-color: #f7f7f7;
+	border-radius: 30px 0 0 30px;
+	border: 2px solid #efefef;
+	width: 300px;
+	padding: 0 0 0 20px;
+}
+
+.submit-button>input {
+	height: 54px;
+	font-family: "Poppins";
+	font-size: 16px;
+	text-align: center;
+	outline: none;
+	background: #fc5f45;
+	font-weight: bold;
+	border-radius: 0 30px 30px 0;
+	border: none;
+	color: white;
+	width: 180px;
+}
+
+.submit-button>input:hover {
+	background: #f24529;
+	cursor: pointer;
+}
+
+.subscribe-form {
+	margin: 0 auto;
+	width: 480px;
+}
+
+/*-------------------Get in Touch -----------------------*/
+
+.get-in-touch-backgrount-img {
+	width: 100%;
+	background: url(../img/footer-img.png) no-repeat;
+	padding: 17vh 0 10vh 0;
+}
+
+.form {
+	width: 750px;
+	margin: 0 auto;
+	margin-top: 4%;
+}
+.all-enter-text-places>input {
+	width: 360px;
+	height: 50px;
+	text-align: center;
+	font-family: "Poppins";
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	margin-top: 25px;
+}
+
+.text-area>input {
+	width: 750px;
+	height: 200px;
+	text-align: center;
+	border-radius: 5px;
+	font-family: "Poppins";
+	font-size: 16px;
+	border: none;
+	margin-top: 25px;
+}
+
+.your-email, .project-budget {
+	margin-left: 30px;
+}
+
+.send-message>input {
+	height: 54px;
+	font-family: "Poppins";
+	font-size: 16px;
+	text-align: center;
+	outline: none;
+	background: #fc5f45;
+	font-weight: bold;
+	border-radius: 30px;
+	border: none;
+	color: white;
+	width: 195px;
+}
+
+.send-message {
+	margin: 0 auto;
+	width: 195px;
+	margin-top: 50px;
+}
+
+.send-message>input:hover {
+	background: #f94e31;
+	cursor: pointer;	
+}
+
+/* ------------------------ Footer -------------------------*/
+.footer {
+	margin-top: 10%;
+}
+
+.footer-backgroun-color {
+	background: rgba(52, 54, 79, 0.9);
+}
+
+.all-footer-blocks {
+	width: 300px;
+	height: 225px;
+}
+
+.footer-logo {
+	text-align: center;
+	border-bottom: 3px solid #fc5f45;
+}
+
+.footer-logo>div {
+	margin-top: 70px;
+}
+
+.adress-one>div>h2, .addres-two>div>h2, .follow-us>div>h2 {
+	font-family: "Poppins";
+	font-size: 20px;
+	color: #38c695;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.adress-one>div>p, .addres-two>div>p {
+	font-family: "Poppins";
+	font-size: 16px;
+	color: white;
+	text-align: center;
+}
+
+.adress-one {
+	border-bottom: 3px solid #38c695;
+} 
+
+.addres-two>div>h2 {
+	color: #b27cf5;
+}
+
+.addres-two {
+	border-bottom: 3px solid #b27cf5;
+}
+
+.follow-us>div>h2 {
+	color: #feb960;
+}
+
+.tw, .insta, .google {
+	margin-left: 15px;
+}
+
+.fb {
+	margin-left: 60px;
+}
+
+.follow-us {
+	border-bottom: 3px solid #feb960;
+}
+
+/*END*/
